@@ -14,17 +14,17 @@ Cost: $0. Nothing in this stage is billed. Phase id `stage-0`, ceiling $30 (`pha
 Do these by hand in the DigitalOcean console and the password manager before the first apply. When an item is done, fill in its `Verified on:` line.
 
 - [ ] Two-factor authentication on the account; recovery codes in the password manager.
-  Verified on:
+  Verified on:11-22-2026
 - [ ] Billing alerts set at $10 and $25 (below the $30 ceiling).
-  Verified on:
+  Verified on:11-22-2026
 - [ ] Token A: custom write scopes from [the scope table](../spacelift-secrets.md#4a-digitalocean-token-scopes), 90-day expiry, stored only in Doppler, used only by Spacelift.
-  Verified on:
+  Verified on:11-22-2026
 - [ ] Token B: custom read-only scopes from the same table, 90-day expiry, for interactive tooling.
-  Verified on:
+  Verified on:11-22-2026
 - [ ] *(Author-specific; skip if you have no such tool.)* The token currently behind the `do-droplets` MCP server is identified; if it is write-scoped, it is replaced with Token B.
-  Verified on:
+  Verified on:11-22-2026
 - [ ] Rotation date for both tokens recorded in the password manager (not in this repo).
-  Verified on:
+  Verified on:11-22-2026
 
 ## 3. Choices to confirm before apply
 
